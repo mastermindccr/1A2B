@@ -1,0 +1,26 @@
+.queue-displayer {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #000;
+    position: absolute;
+    margin-top: -110px;
+}
+
+@keyframes move-down {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(110px);
+    }
+}
+
+.move-down {
+    animation: move-down 0.5s forwards; /* forwards prevent the animation from reset */
+}
+
+.close-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}

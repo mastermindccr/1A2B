@@ -1,0 +1,50 @@
+.gameboard {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.top-bar {
+    display: flex;
+    height: 10%;
+    border-bottom: 1px solid black;
+}
+
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.answer-block {
+    flex-direction: column;
+}
+
+.answer-block > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.button-board {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.button-row {
+    display: flex;
+    height: 100%;
+}
+
+.clock-background {
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

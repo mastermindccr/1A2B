@@ -1,0 +1,15 @@
+.guess {
+    width: 25%;
+    border: 1px solid black;
+}
+
+.answer-board {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    margin-top: 50px;
+}
+
+.answer-row {
+    display: flex;
+}

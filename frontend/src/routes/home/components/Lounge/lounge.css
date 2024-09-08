@@ -1,0 +1,13 @@
+.flex-box {
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.flex-box > div {
+    text-align: center;
+}
+
+.lounge {
+    margin: auto;
+}
